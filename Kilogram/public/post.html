@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- css -->
+    <link href="style.css" rel="stylesheet">
+    <!-- js -->
+    <script defer src="./script.js"></script>
+    <script defer src="./header.js"></script>
+    <script defer src="./navigation.js"></script>
+    <title>Post Recipe</title>
+</head>
+<body>
+
+<div class="UI"></div>
+
+<main class="content">
+
+    <div class="addPostInputs">
+        <div>
+            <label for="title">Title:</label>
+            <input id="title" type="text">
+        </div>
+        <div>
+            <label for="imgLink">Image Link:</label>
+            <input id="imgLink" type="text">
+        </div>
+        <div>
+            <label for="ingredients">Ingredients:</label>
+            <input id="ingredients" type="text">
+        </div>
+        <div>
+            <label for="tags">Tags:</label>
+            <input id="tags" type="text">
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <input id="description" type="text">
+        </div>
+        <div>
+            <label for="preparation">Preparation:</label>
+            <input id="preparation" type="text">
+        </div>
+        <button onclick="addPost()">submit</button>
+    </div>
+</main>
+</body>
+</html>
