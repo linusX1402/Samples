@@ -1,0 +1,9 @@
+./Kilogram/node_modules
+./Kilogram/*.Identifier
+./Kilogram/.DS_Store
+./Kilogram/./dist
+./Kilogram/.idea
+./Kilogram/*.Identifier
+./Kilogram/package-lock.json
+./Kilogram/package.json
+./Kilogram/tscconfig.json
