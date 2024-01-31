@@ -1,2 +1,2 @@
 # Kilogram
-An intuitive Website for sharing various recipes.
+Zum Starten des node Servers im Ordner Kilogram den Command "node ./dist/server.js" ausführen
